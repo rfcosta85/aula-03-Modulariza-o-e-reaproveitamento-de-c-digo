@@ -1,7 +1,8 @@
 /* Exemplos Function declaration */
 
 function formatarMoeda(valor) {
-    return valor.toLocaleString('pt-PT', { style: 'currency', currency: 'EUR' });
+    return valor.
+    toLocaleString('pt-PT', { style: 'currency', currency: 'EUR' });
 }
 
 const coima = 150.00;
@@ -26,7 +27,8 @@ validaMinimoDeCaracteres = function (texto, minimo, maximo) {
 }
 
 console.log("Validação de caracteres:", validaMinimoDeCaracteres("Rui", 2));
-console.log("Validação de matrícula veícular:", validaMinimoDeCaracteres("ABXL12", 6, 6));
+console.log("Validação de matrícula veícular:", 
+    validaMinimoDeCaracteres("ABXL12", 6, 6));
 
 /* Hoisting */
 

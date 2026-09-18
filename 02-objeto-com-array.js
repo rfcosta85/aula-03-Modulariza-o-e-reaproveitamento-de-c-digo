@@ -93,7 +93,8 @@ for(let i = 0; i < veiculos.length; i++){
     console.log("Ano:", veiculos[i].ano);
     console.log("Cor:", veiculos[i].cor);
     console.log("Combustível:", veiculos[i].combustivel);    
-    veiculos[i].cilindrada ? console.log("Cilindrada:", veiculos[i].cilindrada) : "";
+    veiculos[i].cilindrada ? 
+    console.log("Cilindrada:", veiculos[i].cilindrada) : "";
 }
 /* console.log("------------------------------------------------------------"); */
 
